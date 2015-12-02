@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title><%= title %></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="ui-page">
+        <header class="ui-header">
+            <%= title %>
+        </header>
+    	<div class="ui-content">
+    		<div class="login-box">
+    			<div class="head-img">
+                    <div id="preview">
+                        <img id="imghead" src="/images/banlv.png">
+                    </div>
+                    <input class="hidden" onchange="previewImage(this)" type="file">
+                    <a class="a-file" href="javascript:void(0)" type="file">+</a>
+                </div>
+    			<div class="line">
+    				<img src="/images/user.png">
+    				<input type="text" name="userName" placeholder="用户名">
+				</div>
+                <div class="line">
+                    <img src="/images/mail.png">
+                    <input type="text" name="email" placeholder="邮箱">
+                </div>
+				<div class="line">
+    				<img src="/images/lock.png">
+    				<input type="password" name="password" placeholder="密码">
+				</div>
+    			<div class="mt20">
+    				<span class="fl"><a href="/user/">已有帐号</a></span>
+    				<span class="fr"><a href="/user/forget">忘记密码</a></span>
+				</div>
+				<div class="chose">
+					<a class="submit-btn" href="#pagetwo">确定</a>
+				</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

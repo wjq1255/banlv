@@ -1,0 +1,106 @@
+html, body, header, section, footer, div, ul, ol, li, img, a, span, em, del, legend, center, strong, var, fieldset, form, label, dl, dt, dd, cite, input, hr, time, mark, code, figcaption, figure, textarea, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    border: 0px none;
+    padding: 0px;
+    font-style: normal;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body{overflow-x: hidden;}
+a, ul, li {
+    text-decoration: none;
+    list-style: outside none none;
+    color: #4D4D4D;
+}
+/*common*/
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.fl{float: left;}
+.fr{float: right;}
+.hidden {display: none;}
+
+.ui-header{
+    background-color: #1ABC9C;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    color: #FFF;
+    display: table;
+    min-height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 10000;
+}
+.ui-header a{
+	height: 45px;
+	padding-top: 0px;
+}
+.ui-header .header-title{
+	right: 80px;
+	left: 80px;
+	width: auto;
+}
+
+/*login*/
+.login-box {
+    width: 80%;
+    margin: auto;
+}
+.logo p {
+    font-size: 2.2rem;
+    text-align: center;
+}
+.line {
+    width: 98%;
+    overflow: hidden;
+    border-bottom: 1px solid #1ABC9C;
+    padding-left: 2%;
+    margin-top: 35px;
+}
+.line img {
+    float: left;
+    padding-top: 2px;
+}
+
+.line input{
+    border: medium none;
+	padding-left: 5%;
+	line-height: 2.4rem;
+	font-size: 1.2rem;
+    color: #4D4D4D;
+    outline: medium none;
+    background: transparent none repeat scroll 0% 0%;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.chose .submit-btn {
+    float: left;
+    margin: 35px 0px;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #FFF !important;
+    background: #1ABC9C none repeat scroll 0% 0%;
+    border-radius: 20px;
+}
+.head-img {
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+}
+.head-img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #D8F2F2;
+	padding: 3px;
+}
+.head-img a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #4D4D4D;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>忘记密码</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="ui-page">
+        <header class="ui-header">
+            <%= title %>
+        </header>
+    	<div class="ui-content">
+    		<div class="login-box">
+                <div class="head-img">
+                    <img src="/images/banlv.png">
+                    <p><%= title %></p>
+                </div>
+    			<div class="line">
+    				<img src="/images/user.png">
+    				<input type="text" name="userName" placeholder="用户名">
+				</div>
+				<div class="line">
+    				<img src="/images/mail.png">
+    				<input type="text" name="email" placeholder="注册邮箱">
+				</div>
+                <div class="line">
+                    <img src="/images/phone.png">
+                    <input type="text" name="phone" placeholder="手机号">
+                </div>
+                <div class="line">
+                    <img src="/images/message.png">
+                    <input type="text" name="message" placeholder="短信验证码">
+                </div>
+    			<div class="mt20">
+                    <span class="fl"><a href="/user/">已有帐号</a></span>
+                    <span class="fr"><a href="/user/register">重新注册</a></span>
+                </div>
+				<div class="chose">
+					<a class="submit-btn" href="#">确定</a>
+				</div>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
