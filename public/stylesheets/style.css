@@ -18,6 +18,8 @@ a, ul, li {
 .fr{float: right;}
 .hidden {display: none;}
 
+.clear {clear: both}
+
 .ui-header{
     background-color: #1ABC9C;
     width: 100%;

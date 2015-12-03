@@ -11,28 +11,30 @@
 <body>
     <div class="ui-page">
     	<div class="ui-content">
-    		<div class="login-box">
-
-    			<div class="head-img">
-    				<img src="/images/banlv.png">
-    				<p><%= title %></p>
-				</div>
-    			<div class="line">
-    				<img src="/images/user.png">
-    				<input type="text" name="userName" placeholder="用户名">
-				</div>
-				<div class="line">
-    				<img src="/images/lock.png">
-    				<input type="password" name="password" placeholder="密码">
-				</div>
-    			<div class="mt20">
-    				<span class="fl"><a href="/user/register">注册</a></span>
-    				<span class="fr"><a href="/user/forget">忘记密码</a></span>
-				</div>
-				<div class="chose">
-					<a class="submit-btn" href="#">登陆</a>
-				</div>
-    		</div>
+            <form action="/user/login" method="post">
+                <div class="login-box">
+                    <div class="head-img">
+                        <img src="/images/banlv.png">
+                        <p><%= title %></p>
+                    </div>
+                    <div class="line">
+                        <img src="/images/user.png">
+                        <input type="text" name="userName" placeholder="用户名">
+                    </div>
+                    <div class="line">
+                        <img src="/images/lock.png">
+                        <input type="password" name="password" placeholder="密码">
+                    </div>
+                    <div class="mt20">
+                        <span class="fl"><a href="/user/register">注册</a></span>
+                        <span class="fr"><a href="/user/forget">忘记密码</a></span>
+                    </div>
+                    <div class="chose">
+                        <input class="submit-btn" type="submit" value="登陆"/>
+                        <!-- <a class="submit-btn" href="javascript:form.submit();">登陆</a> -->
+                    </div>
+                </div>
+            </form>
     	</div>
     </div>
 </body>
